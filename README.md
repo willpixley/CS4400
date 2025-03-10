@@ -1,8 +1,11 @@
-# CS4400
+# CS4440
 
-## Setup
+## Project structure
 
-1. Make sure you have node and npm installed
-2. Run `npm install` to install all required modules
-3. Run `npm start` to start the server
-4. To check the test route, start the server then navigate to `localhost:8000/test`
+### Backend
+
+-   Node.js backend connected to a MySQL database located in the `/backend` folder
+
+### Frontend
+
+-   Vite with React frontend located in the `/frontend` folder
