@@ -1,0 +1,25 @@
+{
+	"name": "cs4400",
+	"version": "1.0.0",
+	"description": "",
+	"homepage": "https://github.com/willpixley/CS4400#readme",
+	"bugs": {
+		"url": "https://github.com/willpixley/CS4400/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/willpixley/CS4400.git"
+	},
+	"license": "ISC",
+	"author": "",
+	"type": "module",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"express": "^4.21.2",
+		"node": "^23.9.0"
+	}
+}
