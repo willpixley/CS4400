@@ -14,7 +14,7 @@
     CREATE DATABASE cs4400_db;
     -- recommended: use your own password
     CREATE USER 'db_user'@'localhost' IDENTIFIED BY 'my_password';
-    GRANT ALL PRIVILEGES ON fse_database.* TO 'db_user'@'localhost';
+    GRANT ALL PRIVILEGES ON cs4400_db.* TO 'db_user'@'localhost';
     FLUSH PRIVILEGES;
 
     USE cs4400_db;
