@@ -8,7 +8,9 @@
 
 #### Connect to MySQL
 
-1. In the query window copy and paste the following script, feel free to modify the names if needed.
+1. Navigate to the `/backend` folder.
+
+2. In the query window copy and paste the following script, feel free to modify the names if needed.
 
     ```sql
     CREATE DATABASE cs4400_db;
@@ -28,7 +30,7 @@
     INSERT INTO test_table (name, age) VALUES ('John Doe', 30), ('Jane Smith', 25);
     ```
 
-2. In the /backend/ directory create a new enviornment file `.env` and paste in these contents, or replace the values with your own.
+3. In the /backend/ directory create a new enviornment file `.env` and paste in these contents, or replace the values with your own.
 
     ```js
     DB_HOST = localhost;
@@ -36,6 +38,13 @@
     DB_PASSWORD = my_password;
     DB_NAME = cs4400_db;
     ```
+
+4. Run `npm run start` and check to make sure the server runs and tables are created
+
+Notes:
+
+-   All tables are created and seeded fresh each time the server is started
+-   Tables are created in the `config/createTables.js` file. There is an example table already being created in there.
 
 ### Frontend
 
